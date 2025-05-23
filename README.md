@@ -1,0 +1,2 @@
+# bingoplata
+bingo plata
