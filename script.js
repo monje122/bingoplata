@@ -1,4 +1,4 @@
-aconst supabaseUrl = 'https://eskyxgjoasvrksfztovg.supabase.co';
+const supabaseUrl = 'https://eskyxgjoasvrksfztovg.supabase.co';
 const supabase = window.supabase.createClient(supabaseUrl, 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVza3l4Z2pvYXN2cmtzZnp0b3ZnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDgwMTkwMjMsImV4cCI6MjA2MzU5NTAyM30.HyMmT6rJEb4CyjlOKYFCvB80iyq7d0OPddkdJEPFq5Y');
 
 // Variables globales
