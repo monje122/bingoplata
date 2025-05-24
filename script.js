@@ -288,7 +288,7 @@ usuario.cartones = [];
 // Entrar al panel admin
 async function entrarAdmin() {
   const clave = document.getElementById('clave-admin').value;
-  if (clave !== 'admin123') return alert('Clave incorrecta');
+  if (clave !== 'Angelo.25550') return alert('Clave incorrecta');
 obtenerMontoTotalRecaudado();
   document.getElementById('panel-admin').classList.remove('oculto');
   contarCartonesVendidos();
