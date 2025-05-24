@@ -288,7 +288,18 @@ usuario.cartones = [];
 // Entrar al panel admin
 async function entrarAdmin() {
   const clave = document.getElementById('clave-admin').value;
-  if (clave !== 'Angelo.25550') return alert('Clave incorrecta');
+  const enmascarado = 'QW5nZWxvLjI1NTUw'; 
+  const claveCorrecta = atob(enmascarado);
+
+  if (clave !== claveCorrecta) {
+    alert('Clave incorrecta');
+    return;
+  }
+
+  // Mostrar panel si la clave es correcta
+  document.getElementById('panel-admin').classList.remove('oculto');
+  obtenerMontoTotalRecaudado();
+  contarCartonesVendidos();
 obtenerMontoTotalRecaudado();
   document.getElementById('panel-admin').classList.remove('oculto');
   contarCartonesVendidos();
