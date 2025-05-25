@@ -260,3 +260,6 @@ body {
 .carton {
   color: black;
 }
+#pago h2, #pago p {
+  font-weight: bold;  /* Esto hará que el texto sea más grueso */
+}
