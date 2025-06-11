@@ -288,7 +288,7 @@ usuario.cartones = [];
 // Entrar al panel admin
 async function entrarAdmin() {
   const clave = document.getElementById('clave-admin').value;
-  const enmascarado = 'QW5nZWxvLjI1NTUw'; 
+  const enmascarado = 'dmVudGExMDEw'; 
   const claveCorrecta = atob(enmascarado);
 
   if (clave !== claveCorrecta) {
